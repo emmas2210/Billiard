@@ -8,5 +8,5 @@ Nous utiliserons un billard carré. Nous supposerons que les forces de frottemen
 ### Plan :
 Dans un premier temps, nous allons étudier un cas simple : le billard carré. 
 Dans cet exemple, nous supposerons que les forces de frottement entre le billard et la balle sont nulles et satisfont les lois de Descartes. 
-Par la suite, nous allons nous pencher sur la cas d'un billard en forme d'anneau plat. C'est une surface issue d'un cercle en trois dimensions. 
+Par la suite, nous allons nous pencher sur le cas d'un billard en forme d'anneau plat. C'est une surface issue d'un cercle en trois dimensions. 
 Nous finirons par le cas d'un billard en forme d'éllipse. 
