@@ -1,4 +1,4 @@
-# Projet de développement logiciel : BILLARD
+# Projet de développement logiciel : BILLIARD
 
 ## Participants : Emma Santinelli, Selena Iskounen, Oumayma Khalifi
 
