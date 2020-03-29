@@ -1,6 +1,11 @@
-# BILLARD Project
+# ***BILLARD Project***
 
-## Contributors: Emma Santinelli, Selena Iskounen, Oumayma Khalifi
+## Contributors: 
+# Emma Santinelli: santinelli.emma@etu.montpellier.fr
+# Selena Iskounen: iskounen.selena@etu.umontpellier.fr
+# Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
+
+## Goal:
 
 The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
 
