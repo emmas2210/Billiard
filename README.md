@@ -1,7 +1,7 @@
 # ***BILLARD Project***
 
 ## Contributors: 
-# Emma Santinelli: santinelli.emma@etu.montpellier.fr
+# Emma Santinelli: santinelli.emma@etu.umontpellier.fr
 # Selena Iskounen: iskounen.selena@etu.umontpellier.fr
 # Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
 
