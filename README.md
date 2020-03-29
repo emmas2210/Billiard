@@ -1,4 +1,4 @@
-# ***BILLARD Project***
+<h1><span style="text-decoration: underline; color: #993366;"><em><strong>Billard Project</strong></em></span></h1>
 
 ## Contributors: 
 # Emma Santinelli: santinelli.emma@etu.umontpellier.fr
