@@ -3,7 +3,7 @@
 - Billard Project
 ```
 
-## ***Contributors:*** 
+# ***Contributors:*** 
 # Emma Santinelli: santinelli.emma@etu.umontpellier.fr
 # Selena Iskounen: iskounen.selena@etu.umontpellier.fr
 # Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
