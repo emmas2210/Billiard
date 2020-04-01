@@ -2,9 +2,9 @@
 ##Billiard Project:
 
 ### ***Contributors:*** 
- Emma Santinelli: emma.santinelli@etu.umontpellier.fr,
- Selena Iskounen: selena.iskounen@etu.umontpellier.fr,
- Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
+ Emma Santinelli: emma.santinelli@etu.umontpellier.fr.
+ Selena Iskounen: selena.iskounen@etu.umontpellier.fr.
+ Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr.
 
 ### ***Goal:***
 
