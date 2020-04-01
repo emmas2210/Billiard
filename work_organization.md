@@ -20,9 +20,9 @@ The first part is due on March 29th.
 
 
 ## 2nd part : 
-- Creation of the flat torus billaird. 
-Scheduled on April 10th
+- Creation of the flat torus billiard.                                                                                         
+Scheduled on April 10th.
 
 ## 3rd part : 
-- The hardest case, the elliptic billiard
-We hope it will be done by April 20th  
+- The hardest case, the elliptic billiard                                                                                       
+We hope it will be done by April 20th.  
