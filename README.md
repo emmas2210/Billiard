@@ -1,5 +1,5 @@
 
-#**Billiard Project:**
+## ***Billiard Project:***
 
 ### ***Contributors:*** 
  Emma Santinelli: emma.santinelli@etu.umontpellier.fr.
