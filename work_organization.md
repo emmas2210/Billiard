@@ -1,4 +1,4 @@
-In this file, we are going to list the different tasks of our project as well as the plan.#
+In this file, we are going to list the different tasks of our project as well as the plan.
  
 
 # Distribution of tasks :
