@@ -1,19 +1,17 @@
 
-```diff
-- Billard Project
-```
+#Billiard Project:
 
-# ***Contributors:*** 
-# Emma Santinelli: santinelli.emma@etu.umontpellier.fr
-# Selena Iskounen: iskounen.selena@etu.umontpellier.fr
-# Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
+## ***Contributors:*** 
+ Emma Santinelli: emma.santinelli@etu.umontpellier.fr
+ Selena Iskounen: selena.iskounen@etu.umontpellier.fr
+ Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr
 
 ## ***Goal:***
 
 The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
 
 
-### ***Plan :***
+## ***Plan :***
 
 Firstly, we are going to start with the simplest case: a square billard.
 In this example, we assume that there is no friction and the Descartes rules are satisfied.
