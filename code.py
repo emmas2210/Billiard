@@ -1,1 +1,0 @@
-#code of the billiard square :
