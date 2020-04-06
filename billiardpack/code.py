@@ -1,5 +1,19 @@
 #code of the billiard square :
-from tkinter import *
+import tkinter
+import random
+
+window = tkinter.Tk()
+tk = Tk()
+tk.title("Square Billiard Game")
+label_title=Label(tk,text="Welcome to billiard game")
+label_title.pack()
+canvas = tkinter.Canvas(tk, width="400", height="400",background='#096a09') #Dimension square are 400x400
+canvas.pack(padx=10,pady=10)
+
+balle1 = canvas.create_oval(10,10,30,30,fill='white')
+
+dx=3
+dy=5
 
 def deplacement():
      global dx, dy
@@ -17,23 +31,9 @@ canvas.move(balle1,dx,dy)
     #We reiterate this function 
 tk.after(20,deplacement)
  
-
-dx=3
-dy=5
-     
-window = tkinter.Tk()
-tk = Tk()
-tk.title("Square Billiard Game")
-label_title=Label(tk,text="Welcome to billiard game")
-label_title.pack()
-canvas = tkinter.Canvas(tk, width="400", height="400",background='#096a09') #Dimension square are 400x400
-canvas.pack(padx=10,pady=10)
-
-Bouton_Quitter=Button(tk, text ='Quitter', command = tk.destroy)
+Bouton_Quitter=Button(tk, text ='Quit', command = tk.destroy)
 Bouton_Quitter.pack()
- 
-balle1 = canvas.create_oval(10,10,30,30,fill='white')
- 
+  
 deplacement()
 
 
