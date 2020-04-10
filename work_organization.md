@@ -22,8 +22,8 @@ The first part is due on March 29th.
 - Creation of the flat torus billiard.
 - Creation of the test functions
 
-Scheduled on April 20th.
+Scheduled on April 28th.
 
 ## 3rd part : 
 - The hardest case, the elliptic billiard                                                                                       
-We hope it will be done by April 20th.  
+We hope it will be done by May 17th.  
