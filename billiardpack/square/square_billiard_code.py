@@ -50,11 +50,11 @@ while len(collision)<200:
         X2=X3=random.randint(0,1)
         Z0=Z1=random.randint(0,1)
         if X2==X3==0:
-            collision += 'h'
+            collision += 'H'
         if X2==X3==1:
             collision
         if Z0==Z1==0:
-            collision += 'v'
+            collision += 'V'
         if Z0==Z1==1:
             collision
 
