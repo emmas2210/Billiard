@@ -1,1 +1,0 @@
-#code pour elliptic billiard
