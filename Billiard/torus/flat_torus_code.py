@@ -1,5 +1,11 @@
 #code du torrus billiard
 from mayavi import mlab
+import pygame 
+from pygame.locals import*
+from OpenGL.GL import*
+from OpenGL.GLU import*
+from OpenGL.GLUT import*
+
 mlab.init_notebook(backend = 'x3d' , local=False)
 
 theta=np.linspace(0, 2*np.pi,100)
@@ -12,11 +18,7 @@ Z = np.outer(np.sin(phi), 0.09*np.ones(np.size(theta)))
 mlab.clf()
 mlab.mesh(X,Y,Z, representation='wireframe')
 
-import pygame 
-from pygame.locals import*
-from OpenGL.GL import*
-from OpenGL.GLU import*
-from OpenGL.GLUT import*
+
 
 def torus(a,b):
     tau = 2*math.pi
