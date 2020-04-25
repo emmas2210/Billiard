@@ -9,6 +9,6 @@ setup(
     author='Selena Iskounen, Emma Santinelli, Oumayma Khalifi',
     author_mail='selena.iskounen@etu.umontpellier.fr, emma.santinelli@etu.umontpellier.fr, oumayma.khalifi@etu.umontpellier.fr',
     license='MIT',
-    packages=['Billiard','Billiard.square','Billiard.torrus','Billiard.elliptic'],
+    packages=['Billiard','Billiard.square','Billiard.torus','Billiard.elliptic'],
     zip_safe=False
 )
