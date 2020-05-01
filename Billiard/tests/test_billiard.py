@@ -1,16 +1,13 @@
 
 #Functions tests for square billiard:
-from billiardpack import *
+import numpy as np 
+import random 
+import math
 
-def test_deplacement ():
-    dx=random.randint(3,8)
-    dy=random.randint(5,10)
-    deplacement()
+def test_deplacement():
+    vitesse=random.uniform(1,3)*4
+    angle=random.uniform(0,3*math.pi)
+    DX=vitesse*math.cos(angle)
+    DY=vitesse*math.sin(angle)                          
 
 
-
-def test_collision():
-    X2==X3== random.randint(2,3)
-    Z0==Z1== random.randint(2,3)
-
-print(collision)
