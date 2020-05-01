@@ -1,4 +1,3 @@
-![Python package](https://github.com/emmas2210/Billiard/workflows/Python%20package/badge.svg)
 
 
  # Billiard Project:
