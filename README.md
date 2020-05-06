@@ -12,9 +12,7 @@ To install the package, run the appropriate command for your distribution as fol
 ## Contributors
  
 `*Emma Santinelli: emma.santinelli@etu.umontpellier.fr                                                                       
- 
  *Selena Iskounen: selena.iskounen@etu.umontpellier.fr
- 
  *Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr `                                                                          
 
 ## Documentation
