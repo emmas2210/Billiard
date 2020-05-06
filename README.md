@@ -19,7 +19,9 @@ Here is the command line :
 ## Documentation:
 The documentation of this package is available on this website : 
 
-
+## Prerequisite
+ If you need to install PIP command, have a look on this website : 
+ [texte du lien](tecmint.com/install-pip-in-linux/)
 ## Plan :
 
 Firstly, we are going to start with the simplest case: a square billard.
