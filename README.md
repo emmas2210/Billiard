@@ -19,7 +19,7 @@ To install the package, run the appropriate command for your distribution as fol
 The documentation of this package is available on this website : 
 
 ## Prerequisite
-PIP needs to be install, you can have a look on this website :
+PIP needs to be installed, you can have a look on this website :
 [https://www.tecmint.com/install-pip-in-linux/](https://www.tecmint.com/install-pip-in-linux/)
 
 
