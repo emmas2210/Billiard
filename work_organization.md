@@ -8,7 +8,7 @@ In this file, we are going to list the different tasks of our project as well as
  * Function to list words with square billiard,
  * work_organization.md,                                                                                                       
  * Pyhton class,                   
- * Readme.md
+ * Readme.md,
  * Elliptic billiard's construction.                 
 
 ## Selena Iskounen : 
@@ -17,7 +17,7 @@ In this file, we are going to list the different tasks of our project as well as
 * Torus case,                                                                                                                 
 * Test functions,                                                                                                              
 * Histogram,   
-* Sparse matrix
+* Sparse matrix,
 * Repository structure.
  
 ## Oumyama Khalifi :  ?                                                       
