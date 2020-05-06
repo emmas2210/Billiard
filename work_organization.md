@@ -4,19 +4,19 @@ In this file, we are going to list the different tasks of our project as well as
 # Distribution of tasks :
 
 ## Emma Santinelli : 
-` *Introduction and plan's construction,                                                                                       
-  *Function to list words with square billiard,
-  *work_organization.md,                                                                                                       
-  *Pyhton class,                                                                                                             
-  *Elliptic billiard's construction`.                 
+ *Introduction and plan's construction,                                                                                       
+ *Function to list words with square billiard,
+ *work_organization.md,                                                                                                       
+ *Pyhton class,                                                                                                             
+ *Elliptic billiard's construction.                 
 
 ## Selena Iskounen : 
-`*Square billiard,                                                                                                            
- Elliptic billiard,                                                                                                           
- Torus case,                                                                                                                 
- Test functions,                                                                                                              
- Histogram,                                                                                                                   
- Repository structure`.
+*Square billiard,                                                                                                            
+*Elliptic billiard,                                                                                                           
+*Torus case,                                                                                                                 
+*Test functions,                                                                                                              
+*Histogram,                                                                                                                   
+*Repository structure.
  
 ## Oumyama Khalifi :  ?                                                       
 
