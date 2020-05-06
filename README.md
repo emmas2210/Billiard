@@ -1,5 +1,14 @@
 
- # Billiard Project:
+ # __Billiard Project__:
+
+The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
+
+## Installation
+
+To install the package, you need to use the package manager pip. 
+Here is the command line.
+'pip install billiard_module
+
 
 ## Contributors:
  
