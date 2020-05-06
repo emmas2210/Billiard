@@ -10,18 +10,21 @@ Here is the command line :
 `pip install billiard_module`
 
 
-## Contributors:
+## Contributors
  
  Emma Santinelli: emma.santinelli@etu.umontpellier.fr                                                                           
  Selena Iskounen: selena.iskounen@etu.umontpellier.fr                                                                           
  Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr                                                                           
 
-## Documentation:
+## Documentation
 The documentation of this package is available on this website : 
 
 ## Prerequisite
- If you need to install PIP command, have a look on this website : 
- [texte du lien](tecmint.com/install-pip-in-linux/)
+PIP needs to be install, you can have a look on this website :
+[https://www.tecmint.com/install-pip-in-linux/](tecmint.com/install-pip-in-linux/)
+
+
+
 ## Plan :
 
 Firstly, we are going to start with the simplest case: a square billard.
