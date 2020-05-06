@@ -5,8 +5,7 @@ The goal of this project is to be able to produce videos and widget representing
 
 ## Installation
 
-To install the package, you need to use the package manager pip.                                                                Here is the command line.                                                                                                       
-'pip install billiard_module'
+To install the package, you need to use the package manager pip.                                                                Here is the command line :                                                                                                      `pip install billiard_module`
 
 
 ## Contributors:
@@ -15,10 +14,8 @@ To install the package, you need to use the package manager pip.                
  Selena Iskounen: selena.iskounen@etu.umontpellier.fr                                                                           
  Oumayma Khalifi: oumayma.khalifi@etu.umontpellier.fr                                                                           
 
-## Goal:
-
-
-The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
+## Documentation:
+The documentation of this package is available on this website : 
 
 
 ## Plan :
