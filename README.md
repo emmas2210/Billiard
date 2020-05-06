@@ -5,8 +5,7 @@ The goal of this project is to be able to produce videos and widget representing
 
 ## Installation
 
-To install the package, you need to use the package manager pip.                                                                
-Here is the command line :
+To install the package, run the appropriate command for your distribution as follows:
 `pip install billiard_module`
 
 
