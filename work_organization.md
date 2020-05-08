@@ -5,23 +5,22 @@ In this file, we are going to list the different tasks of our project as well as
 
 ## Emma Santinelli : 
  * Introduction and plan's construction,                                                                                       
- * Function to list words with square billiard,
+ * Square Billiard,
  * work_organization.md,                                                                                                       
  * Pyhton class,                   
  * Readme.md,
- * Elliptic billiard's construction.                 
+                
 
-## Selena Iskounen : 
-* Square billiard,                                                                                                            
-* Elliptic billiard,                                                                                                           
+## Selena Iskounen :                                                                                                           
+* Square Billiard                                                                                                           
 * Torus case,                                                                                                                 
-* Test functions,                                                                                                              
-* Histogram,   
-* Sparse matrix,
+* Test functions,                                                                                                               
 * Repository structure.
  
 ## Oumyama Khalifi :  ?                                                       
-
+* Sparse matrix,
+* Elliptic billiard's construction.  
+* Histogram, 
 
 # Different steps :
  
