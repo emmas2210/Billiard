@@ -9,7 +9,8 @@ In this file, we are going to list the different tasks of our project as well as
  * work_organization.md,                                                                                                       
  * Pyhton class,                   
  * Readme.md,
- * Rport (1st part : Square Billiard)
+ * Report (1st part : Square Billiard),
+ * Beamer     
                 
 
 ## Selena Iskounen :                                                                                                           
@@ -17,7 +18,8 @@ In this file, we are going to list the different tasks of our project as well as
 * Torus case,                                                                                                                 
 * Test functions,                                                                                                               
 * Repository structure,   
-* Report (2nd part : Torus billiard).
+* Report (2nd part : Torus billiard),
+* Beamer    
 
  
 ## Oumyama Khalifi :                                                          
