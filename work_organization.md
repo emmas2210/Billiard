@@ -3,9 +3,24 @@ In this file, we are going to list the different tasks of our project as well as
 
 # Distribution of tasks :
 
-Emma Santinelli : Introduction and plan's construction, create a function to list words, work organization, elliptic billiard's construction                  
-Selena Iskounen : Creation of square billiard and elliptic billiard, creation of test function                                 
-Oumyama Khalifi :  Start to find out how to do the flat torus billiard, create the flat torus billiard                                                         
+## Emma Santinelli : 
+ * Introduction and plan's construction,                                                                                       
+ * Function to list words with square billiard,
+ * work_organization.md,                                                                                                       
+ * Pyhton class,                   
+ * Readme.md,
+ * Elliptic billiard's construction.                 
+
+## Selena Iskounen : 
+* Square billiard,                                                                                                            
+* Elliptic billiard,                                                                                                           
+* Torus case,                                                                                                                 
+* Test functions,                                                                                                              
+* Histogram,   
+* Sparse matrix,
+* Repository structure.
+ 
+## Oumyama Khalifi :  ?                                                       
 
 
 # Different steps :

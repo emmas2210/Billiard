@@ -1,5 +1,5 @@
 #code of flat torus billiard
-from tkinteer import*
+from tkinter import*
 import math,random
 LARGEUR = 480
 HAUTEUR = 320
