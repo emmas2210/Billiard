@@ -5,3 +5,4 @@ dist
 Billiard.egg-info
 build
 egg-info
+.ipynb_checkpoints
