@@ -10,7 +10,7 @@ In this file, we are going to list the different tasks of our project as well as
  * Pyhton class,                   
  * Readme.md,
  * Report (1st part : Square Billiard),
- * Beamer     
+ * Beamer.     
                 
 
 ## Selena Iskounen :                                                                                                           
@@ -19,13 +19,15 @@ In this file, we are going to list the different tasks of our project as well as
 * Test functions,                                                                                                               
 * Repository structure,   
 * Report (2nd part : Torus billiard),
-* Beamer    
+* Beamer,           
+* Badge,              
+* Python class.
 
  
 ## Oumyama Khalifi :                                                          
 * Sparse matrix,
 * Elliptic billiard's construction, 
 * Histogram,
-* Report (3rd part : Elliptic billiard)
+* Report (3rd part : Elliptic billiard).
 
 
