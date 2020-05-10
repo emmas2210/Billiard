@@ -1,4 +1,5 @@
-from tkinter import*
+import tkinter 
+from tkinter import *
 import math,random
 
 LARGEUR = 600

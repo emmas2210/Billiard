@@ -1,7 +1,8 @@
 import tkinter as tk
-import random as rd
+import random 
+import math
 
-class TORUS(tk.Tk):
+class flat_torus(tk.Tk):
     """ This class allows us to visualize a window inside wich we can see mouvements of a ball into a 2d torus"""
     def __init__(self):
         """ Initialisation of class elements:
@@ -71,6 +72,6 @@ class TORUS(tk.Tk):
 
 
 if __name__ == "__main__":
-    fen = TORUS()
+    fen = flat_torus()
     fen.title("Flat Torus Billiard")
     fen.mainloop()
