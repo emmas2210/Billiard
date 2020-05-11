@@ -11,7 +11,7 @@ class flat_torus(tk.Tk):
         dx and dy: parameters of deplacement steps
         """
         tk.Tk.__init__(self)
-        self.x, self.y = 300, 200
+        self.x, self.y = 125 , 125
         self.size = 15
         self.vitesse = random.uniform(1.8,2)*5
         self.angle = random.uniform(0,2*math.pi)
@@ -28,9 +28,8 @@ class flat_torus(tk.Tk):
         bouton_quit: button to quit the game"""
         self.label_title=tk.Label(self,text="Welcome to billiard game")
         self.label_title.pack()
-        self.canv = tk.Canvas(self, height=400, width=600, background="white")
+        self.canv = tk.Canvas(self, height=350, width=350, background="green")
         self.canv.pack()
-        self.oval = self.canv.create_oval(50,50,550,350,fill="green")
         self.bouton_quit = tk.Button(self, text="Quit",command=self.destroy)
         self.bouton_quit.pack()
 
@@ -43,13 +42,13 @@ class flat_torus(tk.Tk):
     def move(self):
         """ Ball bounces"""
         """Rebound right"""
-        if self.x + self.size+ self.dx > 550:
-            self.x = 2*(550-self.size)-self.x
+        if self.x + self.size+ self.dx > 350:
+            self.x = 2*(350-self.size)-self.x
             self.dx = -self.dx
 
         """Rebound left"""   
-        if self.x - self.size+ self.dx < 50:
-            self.x = 2*(50+self.size)-self.x
+        if self.x - self.size+ self.dx < 0:
+            self.x = 2*(self.size)-self.x
             self.dx = -self.dx
 
         """Rebound down"""    
@@ -58,8 +57,8 @@ class flat_torus(tk.Tk):
             self.dy = -self.dy
 
         """Rebound up"""    
-        if self.y-self.size+self.dy < 50:
-            self.y = 2*(50+self.size)-self.y
+        if self.y-self.size+self.dy < 0:
+            self.y = 2*(self.size)-self.y
             self.dy = -self.dy
             
             
