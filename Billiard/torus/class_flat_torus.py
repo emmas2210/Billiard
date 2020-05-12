@@ -100,7 +100,7 @@ class flat_torus(tk.Tk):
         
 if __name__ == "__main__":
     fen = flat_torus()
-    fen.title("Animation Balle")
+    fen.title("Flat Torus Billiard")
     fen.mainloop()
         
     
