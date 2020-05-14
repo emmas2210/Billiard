@@ -11,7 +11,7 @@ In this file, we are going to list the different tasks of our project as well as
  * Readme.md,
  * Report (1st part : Square Billiard),
  * Square Billiard documentation,
- * Beamer.     
+ * Beamer (Square biliard part).     
                 
 
 ## Selena Iskounen :                                                                                                           
@@ -20,7 +20,7 @@ In this file, we are going to list the different tasks of our project as well as
 * Test functions,                                                                                                               
 * Repository structure,   
 * Report (2nd part : Torus billiard),
-* Beamer,   
+* Beamer (Torus part),   
 * Torus Billiard documentation,
 * Badge,              
 * Python class.
@@ -31,6 +31,6 @@ In this file, we are going to list the different tasks of our project as well as
 * Elliptic billiard's construction, 
 * Histogram,
 * Elliptic Billiard documentation,
-* Report (3rd part : Elliptic billiard).
-
+* Report (3rd part : Elliptic billiard),
+* Beamer (Elliptic part)
 
