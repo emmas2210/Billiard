@@ -9,11 +9,26 @@ class flat_torus(tk.Tk):
     In this case the 2d torus is represented by a square in size (350,350)"""
     def __init__(self):
         """ Initialisation of class elements:
-        x and y: paramaeters of the initial coordonates of the ball (center of the window)
-        size:parameter of radius of the ball
-        dx and dy: parameters of deplacement steps
-        vitesse : parameters to change the speed
-        flag : parameters wich value 0 if no movement and 1 to start movement
+        :param x: Ball's coordinate in width
+        :type x: int
+
+        :param y: Ball's coordinate in height
+        :type y: int
+
+        :param size: Radius of the ball
+        :type size: int
+
+        :param dx: Movement speed in width
+        :type dx: int
+
+        :param dy: Movement speed in height
+        :type dy: int
+
+        : param vitesse : parametes to change the speed
+        : type vitesse : float
+
+        : flag : parameters wich value 0 if no movement and 1 to start movement
+        : type flag : int
         """
         tk.Tk.__init__(self)
         self.x, self.y = 125 , 125
