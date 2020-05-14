@@ -6,9 +6,9 @@
 Welcome to Billiard's documentation!
 ====================================
 
-.. image:: https://en.wikipedia.org/wiki/Russian_pyramid?fbclid=IwAR3j9Vz6YasI-s7kCM6R-zRpb3ZiJjKh4pq3804EvEYgOrD8e8dIScQ5EDg#/media/File:Russian_billiards_balls.jpg
+.. image:: https://fr.vikidia.org/wiki/Cat%C3%A9gorie:Image_billard#/media/File:Billard.JPG
    :align: center
-   :alt: Russian_billiards_balls
+   :alt: File:Billard
 
 Billiard is a package producing videos and widgets representing a point/ball in a billiard with a simple shape
 and showing its trajectory. There are three billiard's shapes:
