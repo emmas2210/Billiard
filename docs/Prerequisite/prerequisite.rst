@@ -5,13 +5,13 @@ You can install the package Billiard by two ways:
 
 Installation by using the command pip install:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You should write on your terminal conda ... bash:: 
- $ pip install Billiard                         
+You should write on your terminal conda 
+... bash::  $ pip install Billiard                         
 
-To import the package ... bash::
-$ import Billiard
+To import the package 
+... bash:: $ import Billiard
 
 Installation by cloning the repository:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You should write on your terminal git  ...bash::
- $ git clone git@github.com:emmas2210/Billiard.git
+You should write on your terminal git  
+...bash:: $ git clone git@github.com:emmas2210/Billiard.git
