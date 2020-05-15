@@ -5,12 +5,9 @@ You can install the package Billiard by two ways:
 
 Using the command pip install:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-* Through the following command line 
+Through the following commands lines 
 ... bash::  
-   $ pip install Billiard                         
-
-To import the package 
-... bash:: 
+   $ pip install Billiard                        
    $ import Billiard
 
 Cloning the repository:
