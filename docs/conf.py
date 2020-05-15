@@ -23,7 +23,7 @@ author = 'Emma Santinelli, Selena Iskounen, Oumayma Khalifi'
 
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.1'
+release = '0.0.1'
 
 
 # -- General configuration ---------------------------------------------------
@@ -38,10 +38,16 @@ release = '1.0.1'
 extensions = [
     'sphinx.ext.autodoc',
     'sphinx.ext.mathjax',
-  
+    'sphinx.ext.githubpages',
+    'sphinx_gallery.gen_gallery',
+    'sphinx.ext.napoleon',
 ]
 
-
+sphinx_gallery_conf = {
+     'examples_dirs': '../examples',   # path to your example scripts
+     'gallery_dirs': 'auto_examples',  # path to where to save gallery generated output
+    'image_scrapers': ('matplotlib',),
+}
 
 # The suffix(es) of source filenames.
 # You can specify multiple suffix as a list of string:
