@@ -5,7 +5,7 @@ You can install the package Billiard by two ways:
 
 Installation by using the command pip install:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You should write on your terminal conda 
+* Through the following command line 
 ... bash::  
    $ pip install Billiard                         
 
