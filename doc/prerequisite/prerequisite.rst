@@ -1,22 +1,20 @@
 How to install the package Billiard?
 ========================================
-
 First, you should have downloaded Python 3.7 on your machine.
-You can install the package Billiard by two ways:
+You can install the package Billiard by two ways: 
 
-By using the command pip install:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-Through the followings command lines:
+Using the command pip install:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-... bash::
+=======
+Through the following commands lines:
 
   $ pip install Billiard
+
   >>> import Billiard
 
-By cloning the repository:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-You should write on your terminal git:
-
-... bash::
+Cloning the repository:
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+You should write on your terminal git:  
 
   $ git clone git@github.com:emmas2210/Billiard.git

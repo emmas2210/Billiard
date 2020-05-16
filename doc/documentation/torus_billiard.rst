@@ -28,7 +28,7 @@ Classes and functions
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 Class to animate the ball into the flat torus billiard:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. autoclass:: Billiard.torus.class_flat_torus.flat_torus
+.. autoclass:: Billiard.torus.class_flat_torus.class_flat_torus
     :members:
 
 Function to animate the ball into the 3d torus 
