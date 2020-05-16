@@ -1,11 +1,10 @@
 import tkinter as tk
 import random as rd
 #Usage: python tk_baballe.py
-#- clic gauche: faire grossir la baballe
-#- clic droit: faire rétrécir la baballe
-#- clic central: relance la baballe (depuis le  point du clic)
- #               dans une direction aléatoire
-#- touche Esc: quitte l'appli baballe
+#- left click: grow the ball
+#- right click: shrink the ball
+#- clicking on the computer mouse wheel: change the ball's speed and its trajectory.
+#- Esc: leave the game
 
 
 class Billiard(tk.Tk):
