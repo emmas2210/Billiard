@@ -23,9 +23,9 @@ and showing its trajectory. There are three billiard's shapes:
    :maxdepth: 3
    :caption: Documentation:
 
-   documentation/square_billiard
+  
    documentation/torus_billiard
-   documentation/elliptic_billiard
+   
 
 .. toctree::
    :maxdepth: 3
@@ -36,9 +36,4 @@ and showing its trajectory. There are three billiard's shapes:
 
 
 
-Indices and tables
-==================
 
-* :ref:`genindex`
-* :ref:`modindex`
-* :ref:`search`
