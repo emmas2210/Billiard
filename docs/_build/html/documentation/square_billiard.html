@@ -1,0 +1,204 @@
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="English">
+  <head>
+    <meta charset="utf-8" />
+    <title>Square Billiard &#8212; Billiard 0.0.1 documentation</title>
+    <link rel="stylesheet" href="../_static/alabaster.css" type="text/css" />
+    <link rel="stylesheet" href="../_static/pygments.css" type="text/css" />
+    <script id="documentation_options" data-url_root="../" src="../_static/documentation_options.js"></script>
+    <script src="../_static/jquery.js"></script>
+    <script src="../_static/underscore.js"></script>
+    <script src="../_static/doctools.js"></script>
+    <script src="../_static/language_data.js"></script>
+    <link rel="index" title="Index" href="../genindex.html" />
+    <link rel="search" title="Search" href="../search.html" />
+    <link rel="next" title="Torus Billiard" href="torus_billiard.html" />
+    <link rel="prev" title="How to install the package Billiard" href="../prerequisite/prerequisite.html" />
+   
+  <link rel="stylesheet" href="../_static/custom.css" type="text/css" />
+  
+  
+  <meta name="viewport" content="width=device-width, initial-scale=0.9, maximum-scale=0.9" />
+
+  </head><body>
+  
+
+    <div class="document">
+      <div class="documentwrapper">
+        <div class="bodywrapper">
+          
+
+          <div class="body" role="main">
+            
+  <div class="section" id="square-billiard">
+<h1>Square Billiard<a class="headerlink" href="#square-billiard" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="billiard-s-animation-with-words">
+<h2>Billiard's animation with words:<a class="headerlink" href="#billiard-s-animation-with-words" title="Permalink to this headline">¶</a></h2>
+<p>This package allow us to words associated to trajectories:
+We start with an empty word. Then, when the ball hit the top or bottom part we add an H (H for horizontal) and when the ball hit the left or right part, we add a V (V for vertical).
+Then, we perform a statistical analysis of the words creating depending on the angle use to start the trajectory (we restrict to words of size &lt;2000).</p>
+</div>
+<div class="section" id="canvas-widget">
+<h2>Canvas Widget:<a class="headerlink" href="#canvas-widget" title="Permalink to this headline">¶</a></h2>
+<dl class="simple">
+<dt>This package allows to run an animation representing the ball's trajectory in a square billiard.</dt><dd><p>In this animation you can :
+- change the ball's speed and its trajectory by clicking on the computer mouse wheel
+- enlarge the ball by clicking on the left button of the computer mouse
+- shrink the ball by clicking on the right button of the computer mouse
+- leave the animation clicking on the &quot;esc&quot; button</p>
+</dd>
+</dl>
+</div>
+<div class="section" id="classes-and-functions">
+<h2>Classes and functions<a class="headerlink" href="#classes-and-functions" title="Permalink to this headline">¶</a></h2>
+</div>
+<div class="section" id="id1">
+<h2>Canvas Widget:<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h2>
+<dl class="class">
+<dt id="Billiard.square.class_square_billiard.Billiard">
+<em class="property">class </em><code class="sig-name descname">Billiard</code><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard" title="Permalink to this definition">¶</a></dt>
+<dd><p>This class allows to run an animation representing the ball's trajectory in a square billiard. 
+In this animation you can :
+- change the ball's speed and its trajectory by clicking on the computer mouse wheel
+- enlarge the ball by clicking on the left button of the computer mouse
+- shrink the ball by clicking on the right button of the computer mouse
+- leave the animation clicking on the &quot;esc&quot; button
+Here are parameters we used build the class :</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters</dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>x</strong> (<em>int</em>) -- Ball's coordinate in width</p></li>
+<li><p><strong>y</strong> (<em>int</em>) -- Ball's coordinate in height</p></li>
+<li><p><strong>size</strong> (<em>int</em>) -- Radius of the ball</p></li>
+<li><p><strong>dx</strong> (<em>int</em>) -- Movement speed in width</p></li>
+<li><p><strong>dy</strong> (<em>int</em>) -- Movement speed in height</p></li>
+</ul>
+</dd>
+</dl>
+<dl class="method">
+<dt id="Billiard.square.class_square_billiard.Billiard.boom">
+<code class="sig-name descname">boom</code><span class="sig-paren">(</span><em class="sig-param">mclick</em><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard.boom" title="Permalink to this definition">¶</a></dt>
+<dd><p>Launch the ball to some random direction at the click point</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.square.class_square_billiard.Billiard.decr">
+<code class="sig-name descname">decr</code><span class="sig-paren">(</span><em class="sig-param">rclick</em><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard.decr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Decrease ball's size</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.square.class_square_billiard.Billiard.incr">
+<code class="sig-name descname">incr</code><span class="sig-paren">(</span><em class="sig-param">lclick</em><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard.incr" title="Permalink to this definition">¶</a></dt>
+<dd><p>Increase ball's size</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.square.class_square_billiard.Billiard.move">
+<code class="sig-name descname">move</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>This function create the ball's movement. We used the after's method to call this function every 50ms.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.square.class_square_billiard.Billiard.stop">
+<code class="sig-name descname">stop</code><span class="sig-paren">(</span><em class="sig-param">esc</em><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.square.class_square_billiard.Billiard.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Stop the animation.</p>
+</dd></dl>
+
+</dd></dl>
+
+</div>
+<div class="section" id="id2">
+<h2>Billiard's animation with words:<a class="headerlink" href="#id2" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+
+          </div>
+          
+        </div>
+      </div>
+      <div class="sphinxsidebar" role="navigation" aria-label="main navigation">
+        <div class="sphinxsidebarwrapper">
+<h1 class="logo"><a href="../index.html">Billiard</a></h1>
+
+
+
+
+
+
+
+
+<h3>Navigation</h3>
+<p class="caption"><span class="caption-text">Prerequisite:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../prerequisite/prerequisite.html">How to install the package Billiard</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Documentation:</span></p>
+<ul class="current">
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Square Billiard</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#billiard-s-animation-with-words">Billiard's animation with words:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#canvas-widget">Canvas Widget:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#classes-and-functions">Classes and functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id1">Canvas Widget:</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#id2">Billiard's animation with words:</a></li>
+</ul>
+</li>
+<li class="toctree-l1"><a class="reference internal" href="torus_billiard.html">Torus Billiard</a></li>
+</ul>
+<p class="caption"><span class="caption-text">Resources:</span></p>
+<ul>
+<li class="toctree-l1"><a class="reference internal" href="../resources/contacts.html">Contatcs</a></li>
+<li class="toctree-l1"><a class="reference internal" href="../resources/sources.html">Sources</a></li>
+</ul>
+
+<div class="relations">
+<h3>Related Topics</h3>
+<ul>
+  <li><a href="../index.html">Documentation overview</a><ul>
+      <li>Previous: <a href="../prerequisite/prerequisite.html" title="previous chapter">How to install the package Billiard</a></li>
+      <li>Next: <a href="torus_billiard.html" title="next chapter">Torus Billiard</a></li>
+  </ul></li>
+</ul>
+</div>
+<div id="searchbox" style="display: none" role="search">
+  <h3 id="searchlabel">Quick search</h3>
+    <div class="searchformwrapper">
+    <form class="search" action="../search.html" method="get">
+      <input type="text" name="q" aria-labelledby="searchlabel" />
+      <input type="submit" value="Go" />
+    </form>
+    </div>
+</div>
+<script>$('#searchbox').show(0);</script>
+
+
+
+
+
+
+
+
+        </div>
+      </div>
+      <div class="clearer"></div>
+    </div>
+    <div class="footer">
+      &copy;2020, Emma Santinelli, Selena Iskounen, Oumayma Khalifi.
+      
+      |
+      Powered by <a href="http://sphinx-doc.org/">Sphinx 2.4.4</a>
+      &amp; <a href="https://github.com/bitprophet/alabaster">Alabaster 0.7.12</a>
+      
+      |
+      <a href="../_sources/documentation/square_billiard.rst.txt"
+          rel="nofollow">Page source</a>
+    </div>
+
+    
+
+    
+  </body>
+</html>
