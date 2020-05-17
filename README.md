@@ -14,7 +14,7 @@ The goal of this project is to be able to produce videos and widget representing
 ## Installation
 
 To install the package, run the appropriate command for your distribution as follows:
-`pip install billiard_module`.                                                                      
+`pip install Billiard`.                                                                      
 
 ## Documentation
 The documentation of this package is available on this website : [.https://billiard-project.readthedocs.io/en/latest/
