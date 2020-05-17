@@ -1,5 +1,5 @@
 ![Python package](https://github.com/emmas2210/Billiard/workflows/Python%20package/badge.svg)
-![squarebillard](https://user-images.githubusercontent.com/60702138/82157867-417c6d80-9884-11ea-9fde-7a8b3f6e4af6.PNG)
+![billiard](https://user-images.githubusercontent.com/60702138/82158534-dbdeb000-9888-11ea-8401-530ed1aca442.jpg)
  # __Billiard Project__:
 
 The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
