@@ -1,4 +1,5 @@
 ![Python package](https://github.com/emmas2210/Billiard/workflows/Python%20package/badge.svg)
+[![Documentation Status](https://readthedocs.org/projects/billiard-project/badge/?version=latest)](https://billiard-project.readthedocs.io/en/latest/?badge=latest)
 ![billiard](https://user-images.githubusercontent.com/60702138/82158534-dbdeb000-9888-11ea-8401-530ed1aca442.jpg)
  # __Billiard Project__:
 
