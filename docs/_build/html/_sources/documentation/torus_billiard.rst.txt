@@ -24,14 +24,12 @@ where R is the distance between the center of the tube and the center of the tor
 
 We use mayavi to see the ball deplacement in the volume delimited by the torus and the collisions with the surface of the torus.
 
-Classes and functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Classes 
+^^^^^^^^^^^
 Class to animate the ball into the flat torus billiard:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: Billiard.torus.class_flat_torus.flat_torus
     :members:
 
-Function to animate the ball into the 3d torus 
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. autofunction:: Billiard.torus.animation_3d
-    :members:
+
+    

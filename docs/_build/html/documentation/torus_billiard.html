@@ -53,8 +53,8 @@ an axis that is coplanar with the circle. The parametric equation of a torus is 
 <p>where R is the distance between the center of the tube and the center of the torus, r the radius of the circle and u,v in [0,2pi]</p>
 <p>We use mayavi to see the ball deplacement in the volume delimited by the torus and the collisions with the surface of the torus.</p>
 </div>
-<div class="section" id="classes-and-functions">
-<h2>Classes and functions<a class="headerlink" href="#classes-and-functions" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="classes">
+<h2>Classes<a class="headerlink" href="#classes" title="Permalink to this headline">¶</a></h2>
 </div>
 <div class="section" id="class-to-animate-the-ball-into-the-flat-torus-billiard">
 <h2>Class to animate the ball into the flat torus billiard:<a class="headerlink" href="#class-to-animate-the-ball-into-the-flat-torus-billiard" title="Permalink to this headline">¶</a></h2>
@@ -73,20 +73,37 @@ In this case the 2d torus is represented by a square in size (350,350)</p>
 <dt id="Billiard.torus.class_flat_torus.flat_torus.flag">
 <code class="sig-name descname">flag</code><em class="property"> = None</em><a class="headerlink" href="#Billiard.torus.class_flat_torus.flat_torus.flag" title="Permalink to this definition">¶</a></dt>
 <dd><p>Creation of the square window wich represent the 2d torus
-canv: the window
-height : height of the window 
-width : width of the window
-background: color of the window
-bouton_quit: button to quit the game
-bouton_start: to start the ball after stopping it and to change the speed
-bouton_stop : to stop the ball</p>
+:param canv: the window
+:param height : height of the window 
+:param width : width of the window
+:param background: color of the window
+:param bouton_quit: button to quit the game
+:param bouton_start: to start the ball after stopping it and to change the speed
+:param bouton_stop : to stop the ball</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.torus.class_flat_torus.flat_torus.move">
+<code class="sig-name descname">move</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.torus.class_flat_torus.flat_torus.move" title="Permalink to this definition">¶</a></dt>
+<dd><p>Now we are going to create the function &quot;move&quot; that allows the ball to move.
+The ball enter in a bord of the square and comes out on the opposite bord</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.torus.class_flat_torus.flat_torus.start">
+<code class="sig-name descname">start</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.torus.class_flat_torus.flat_torus.start" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function &quot;start&quot; to start moving the ball after stopping it and to change the 
+speed and also the direction.</p>
+</dd></dl>
+
+<dl class="method">
+<dt id="Billiard.torus.class_flat_torus.flat_torus.stop">
+<code class="sig-name descname">stop</code><span class="sig-paren">(</span><span class="sig-paren">)</span><a class="headerlink" href="#Billiard.torus.class_flat_torus.flat_torus.stop" title="Permalink to this definition">¶</a></dt>
+<dd><p>Function &quot;stop&quot; to stop the ball</p>
 </dd></dl>
 
 </dd></dl>
 
-</div>
-<div class="section" id="function-to-animate-the-ball-into-the-3d-torus">
-<h2>Function to animate the ball into the 3d torus<a class="headerlink" href="#function-to-animate-the-ball-into-the-3d-torus" title="Permalink to this headline">¶</a></h2>
 </div>
 </div>
 
@@ -117,9 +134,8 @@ bouton_stop : to stop the ball</p>
 <li class="toctree-l1 current"><a class="current reference internal" href="#">Torus Billiard</a><ul>
 <li class="toctree-l2"><a class="reference internal" href="#flat-torus-billiard">Flat Torus Billiard</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#d-torus-billiard">3D Torus Billiard</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#classes-and-functions">Classes and functions</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#classes">Classes</a></li>
 <li class="toctree-l2"><a class="reference internal" href="#class-to-animate-the-ball-into-the-flat-torus-billiard">Class to animate the ball into the flat torus billiard:</a></li>
-<li class="toctree-l2"><a class="reference internal" href="#function-to-animate-the-ball-into-the-3d-torus">Function to animate the ball into the 3d torus</a></li>
 </ul>
 </li>
 </ul>

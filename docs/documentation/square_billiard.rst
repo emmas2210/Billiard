@@ -15,14 +15,12 @@ This package allows to run an animation representing the ball's trajectory in a 
     - shrink the ball by clicking on the right button of the computer mouse
     - leave the animation clicking on the "esc" button
 
-Classes and functions
-^^^^^^^^^^^^^^^^^^^^^^^^^^
+Class 
+^^^^^^^^^
 Canvas Widget:
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. autoclass:: Billiard.square.class_square_billiard.Billiard
     :members:
 
-Billiard's animation with words:
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. autofunction:: Billiard.square.square_billiard_code
-    :members:
+
+    
