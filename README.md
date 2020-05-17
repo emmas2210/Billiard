@@ -3,7 +3,6 @@
 
 The goal of this project is to be able to produce videos and widget representing a point/ball in a billiard with a simple shape and showing its trajectory.
 
-![Screenshot](squarebilliard.PNG)
 
 ## Contributors
  
