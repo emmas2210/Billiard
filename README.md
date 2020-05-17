@@ -14,7 +14,10 @@ The goal of this project is to be able to produce videos and widget representing
 ## Installation
 
 To install the package, run the appropriate command for your distribution as follows:
-`pip install Billiard`.                                                                      
+`git clone git@github.com:emmas2210/Billiard.git`.     
+
+Then, run this command in Billiard : 
+`pip install .`.
 
 ## Documentation
 The documentation of this package is available on this website : [.https://billiard-project.readthedocs.io/en/latest/
