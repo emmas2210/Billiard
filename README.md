@@ -17,7 +17,7 @@ To install the package, run the appropriate command for your distribution as fol
 `git clone git@github.com:emmas2210/Billiard.git`.     
 
 Then, run this command in Billiard : 
-`pip install .`.
+`pip install Billiard`.
 
 ## Documentation
 The documentation of this package is available on this website : [.https://billiard-project.readthedocs.io/en/latest/
